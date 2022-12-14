@@ -119,11 +119,11 @@ export interface CameraDeviceFormat {
   /**
    * The video resolutions's height
    */
-  videoHeight: number;
+  videoHeight: number | null;
   /**
    * The video resolution's width
    */
-  videoWidth: number;
+  videoWidth: number | null;
   /**
    * A boolean value specifying whether this format supports the highest possible photo quality that can be delivered on the current platform.
    *
